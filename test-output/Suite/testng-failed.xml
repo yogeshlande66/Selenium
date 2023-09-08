@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://google.com"/>
+  <test thread-count="2" parallel="methods" name="Assert(failed)">
+    <classes>
+      <class name="TestNg.Assert">
+        <methods>
+          <include name="PageTitle"/>
+          <include name="logo"/>
+        </methods>
+      </class> <!-- TestNg.Assert -->
+    </classes>
+  </test> <!-- Assert(failed) -->
+</suite> <!-- Failed suite [Suite] -->
