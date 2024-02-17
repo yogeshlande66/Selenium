@@ -18,8 +18,6 @@ public class getWindowHandle {
 		        Thread.sleep(2000);
 		        driver.findElement(By.xpath("//span[normalize-space()='Courses']"));
 		        
-		      
-		        
 			 // Visit the official site of geeksforgeeks.org
 			/* Click on courses at GeeksforGeeks from quick links     
 			 Select a particular course ( Open with a new window )

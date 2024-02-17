@@ -21,6 +21,7 @@ public class Frame {
       ex.executeScript("scrollBy(0, 5000)");  
       
       driver.findElement(By.linkText("Core Java"));
+     
 	  
 	}
 

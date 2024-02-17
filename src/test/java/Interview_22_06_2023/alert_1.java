@@ -8,8 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class alert_1 {
  public static void main(String args[])
  {
-	 ChromeOptions option=new ChromeOptions();
-	 option.addArguments("--disable-notifications");
+
 	 
 	 ChromeDriver driver=new ChromeDriver();
 	/*  driver.get("https://demo.automationtesting.in/Alerts.html");

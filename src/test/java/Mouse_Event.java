@@ -34,7 +34,7 @@ public class Mouse_Event {
          //CTRL +  A
 	     Actions act=new Actions(driver);
 	     
-	    act.sendKeys(Keys.chord(Keys.CONTROL,"a"));
+	 //   act.sendKeys(Keys.chord(Keys.CONTROL,"a"));
 	    
 	     
 	    
@@ -52,7 +52,7 @@ public class Mouse_Event {
 	  //   act.sendKeys(Keys.TAB);
 	   //  act.perform();
 	     
-	     // CTRL +P
+	     // CTRL +p
 	     
 	    /* act.sendKeys(Keys.CONTROL);
 	     act.sendKeys("V");

@@ -9,7 +9,7 @@ public class Group {
 @Test(groups="sanity")
   public void Sanity() {
 	  
-	  System.out.print("Sanity tesing is there");
+	  System.out.println("Sanity tesing is there");
 	  
   }
 @Test(groups="smoke")

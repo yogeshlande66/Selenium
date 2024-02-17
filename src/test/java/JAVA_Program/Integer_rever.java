@@ -12,7 +12,8 @@ public class Integer_rever {
 		  
 	  }
 	  
-	  System.out.println(rev);
-	}
-
+	  System.out.println(rev);    
+	     
+	}  
 }
+

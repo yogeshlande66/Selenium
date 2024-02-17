@@ -1,0 +1,3 @@
+POM: Design pattern 
+LOgin,HomePage,SearchPage,Add_to_CartPage- Each page we have to create diffret class
+=WebObject/WEBElement+Action's

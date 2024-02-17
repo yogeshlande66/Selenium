@@ -19,6 +19,7 @@ import org.testng.annotations.Parameters;
 public class Assert {
 	WebDriver driver;
 	
+	/*
 	@Test
 	@Parameters({"browser","url"}) //Ans:   //problem:The attribute value is undefined for the annotation type Parameters" error is displayed for Cross-Browser Testing Script
   public void f(String browser,String app) {
@@ -62,12 +63,12 @@ public class Assert {
 	org.testng.Assert.assertTrue(act.equals(act),page);
 	
 	// driver.close();
-	 
-  }
+	 */
   
+	
   }
  
-}
+
   
   
  

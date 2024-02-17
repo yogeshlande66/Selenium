@@ -6,14 +6,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Clear_text_from_input_box {
+	
 	public static void main(String args[])
 	{
      WebDriver driver=new ChromeDriver();
      driver.manage().window().maximize();
      driver.get("https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2Fn");
+      driver.close();
+      
      
      //Clear the text from input box using clear method
-       WebElement input=driver.findElement(By.id("Email"));
+      //WebElement input=driver.findElement(By.id("Email"));
       // input.clear();
       // input.sendKeys("fggshfghd");
       // driver.close();
@@ -32,10 +35,7 @@ public class Clear_text_from_input_box {
   System.out.println(button.getAttribute("type"));
    System.out.println(button.getAttribute("class"));
      System.out.print(button.getText()); */
-    String text=driver.findElement(By.xpath("//h1[normalize-space()='Admin area demo']")).getText();
-     System.out.println(text);     
-     driver.close();
-
+   
      
      
 

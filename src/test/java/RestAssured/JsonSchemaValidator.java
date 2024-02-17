@@ -16,9 +16,8 @@ import io.restassured.specification.RequestSpecification;
 public class JsonSchemaValidator {
   @Test
   public void f() {
-	  
-	  
-/*
+	 	 
+	  /*
 	Response res=RestAssured.get("https://reqres.in/api/users?page=2");
      int u=res.statusCode();
 	System.out.println("The status code shouold be 200");

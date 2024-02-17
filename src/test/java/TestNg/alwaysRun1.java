@@ -2,10 +2,6 @@ package TestNg;
 
 import org.testng.annotations.Test;
 
-
-
-
-
 public class alwaysRun1 {
 	
   @Test

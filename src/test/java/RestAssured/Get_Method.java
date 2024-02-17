@@ -8,6 +8,7 @@ import io.restassured.response.ResponseBody;
 
 public class Get_Method {
   @Test
+  
   public void f() {
 	  
 	  Response res =RestAssured.get("https://reqres.in/api/users?page=2");

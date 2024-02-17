@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [Parallel test case]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="TestNg.Dependency">
+        <methods>
+          <include name="startCarr"/>
+          <include name="driverCar"/>
+          <include name="parkCar"/>
+        </methods>
+      </class> <!-- TestNg.Dependency -->
+      <class name="TestNg.Mytest">
+        <methods>
+          <include name="asserTion"/>
+        </methods>
+      </class> <!-- TestNg.Mytest -->
+      <class name="TestNg.Assert">
+        <methods>
+          <include name="f"/>
+          <include name="PageTitle"/>
+          <include name="logo"/>
+        </methods>
+      </class> <!-- TestNg.Assert -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Parallel test case] -->

@@ -13,6 +13,8 @@ public class Table {
 	{
      WebDriver driver=new  ChromeDriver();
      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+   
+     
      //Approach_1- For multiple table
      
      driver.get("https://testautomationpractice.blogspot.com");

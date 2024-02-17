@@ -20,16 +20,16 @@ public void beforeMethod()
 {
 	System.out.println("Thisk is the before method");
 }
-  @Test
+  @Test(groups= {"SmokeTest"})
   public void demo() 
   {
   
-  System.out.println("This is the  tests method");
+  System.out.println("This is the Smoke tests method");
  }
- @Test
+ @Test(groups= {"SmokeTest"})
  public void get()
  {
-	  System.out.println("This is the  tests2 method");
+	  System.out.println("This is the  smoke test method");
  }
   @AfterMethod
   
