@@ -10,12 +10,14 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import Waits.JsonReader_1;
+
 public class BaseClass {
 	 WebDriver driver;
 	public WebDriverWait wait;
 	public HomePage Hp;
 	public BrowserSignUp sup;
-	
+	JsonReader_1 reader;
 	@BeforeTest
 	public void setup()
 	{
@@ -44,7 +46,7 @@ public void EnterDataForLoginPage()
 {
 	sup=new BrowserSignUp(driver);
 	sup.EnterUsername("dsdsdgshsh");
-	sup.EnterPassword("gfdfhsfhs");
+	sup.EnterPassword(reader.toString());
 	sup.LoginClick();
 }
 @AfterTest

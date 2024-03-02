@@ -47,13 +47,6 @@ public class ExtedsReports implements ITestListener
 	}
 	public void onFinish(ITestContext context) 
 	{		
-		extentReport.flush();
-		
-		 
+		extentReport.flush();	 
 	}
-
 }
-	
-	
-	
-	

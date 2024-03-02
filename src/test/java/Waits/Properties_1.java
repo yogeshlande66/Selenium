@@ -9,14 +9,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Properties_1 {
-	public static void main(String args[]) throws IOException
-	{
+public class Properties_1
+{
 	
-WebDriver driver;
-Properties pro;
-
-
+public static void main(String args[]) throws IOException
+{
+ WebDriver driver;
+ Properties pro;
  driver=new ChromeDriver();
  pro=new Properties();
  FileInputStream fis=new FileInputStream("C:\\Users\\ADMIN\\eclipse-workspace\\Selenium\\config\\config.properties");

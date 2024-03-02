@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="POM_2024.BaseClass">
+      <class name="RestAssured_2024.RequestSpecification1">
         <methods>
-          <include name="VerifyHeader_Click_HomePage"/>
-          <include name="EnterDataForLoginPage"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="requestSpecification1"/>
         </methods>
-      </class> <!-- POM_2024.BaseClass -->
+      </class> <!-- RestAssured_2024.RequestSpecification1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

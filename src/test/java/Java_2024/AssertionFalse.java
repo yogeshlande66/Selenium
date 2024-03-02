@@ -31,7 +31,7 @@ public class AssertionFalse {
 	   System.out.println("Sucessfully assert is executed");
 	   driver.quit();   */
 		 
-		 // Assert.assertNotEquals()
+		 // Assert.assertNotEsquals()
 		  
 	/*	Assert.assertNotEquals("Yogesh",driver.getTitle());
 		System.out.println("Assert is not matched");

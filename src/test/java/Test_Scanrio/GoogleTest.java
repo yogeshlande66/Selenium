@@ -12,7 +12,8 @@ import org.testng.annotations.Test;
 import Objec.Google_Page;
 
 
-public class GoogleTest{
+public class GoogleTest
+{
 	WebDriver driver;
 	Google_Page page;
  @BeforeTest
@@ -21,11 +22,9 @@ public class GoogleTest{
 	 driver=new ChromeDriver();
 	 driver.get("https://Google.com");
 	 driver.manage().window().maximize();
-	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	  WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
-	 
-	  
- }
+	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	 WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+	 }
  @Test
  public void  Result()
  {

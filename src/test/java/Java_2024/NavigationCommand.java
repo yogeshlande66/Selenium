@@ -10,10 +10,10 @@ public class NavigationCommand {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.saucedemo.com");
-		/* driver.navigate().to("https://google.com");
+		driver.navigate().to("https://google.com");
 		 driver.navigate().back();
 		 driver.navigate().refresh();
-		 driver.navigate().forward();*/
+		 driver.navigate().forward();
 		
 		 
 		driver.quit();
